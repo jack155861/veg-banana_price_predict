@@ -410,7 +410,7 @@ def model_main_1(train_X, val_X,
     
     folder_new = 'model/' + name + "/"
     file_name_ = os.listdir(folder_new)
-    file_exit_ = sum([[folder_new+x+"/" for y in os.listdir(folder_new+x) if 'final.h5' in y] for x in file_name_], [])
+    file_exit_ = sum([[folder_new+x+"/" for y in os.listdir(folder_new+x) if 'history.png' in y] for x in file_name_], [])
     
     if folder not in file_exit_:
         # dataset
