@@ -274,7 +274,7 @@ class CombinedMetric(Callback):
             pass
         #print(" — loss: %f — val_loss: %f — accuracy: %f — val_accuracy: %f — ca_accuracy: %f — val_ca_accuracy: %f" % (logs['loss'], logs['val_loss'], logs['accuracy'], logs['val_accuracy'], logs['categorical_accuracy'], logs['val_categorical_accuracy']))
         print(" — loss: %f — val_loss: %f — accuracy: %f — val_accuracy: %f" % (logs['loss'], logs['val_loss'], logs['accuracy'], logs['val_accuracy']))
-        
+
 banana_X_train = pd.read_pickle("banana_X_train.pkl")
 banana_X_val = pd.read_pickle("banana_X_val.pkl")
 banana_Y_train = pd.read_pickle("banana_Y_train.pkl")
